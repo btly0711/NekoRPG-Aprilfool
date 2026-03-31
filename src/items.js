@@ -4388,7 +4388,7 @@ item_templates["Twist liek a snek"] = new Book({
         description: "金属残片熔炼而成的铁锭。可以用于制作作剑刃，盔甲", 
         value: 30,
         material_type: "metal",
-        image: "image/item/iron_ingot.png",
+        image: "image/roll.png",
     });
     item_templates["精钢锭"] = new Material({
         id: "精钢锭",
@@ -4396,7 +4396,7 @@ item_templates["Twist liek a snek"] = new Book({
         description: "掺杂了其他金属的铁合金。硬而脆，只能用作剑刃。", 
         value: 400,
         material_type: "metal",
-        image: "image/item/steel_ingot.png",
+        image: "image/roll.png",
     });
     item_templates["紫铜锭"] = new Material({
         id: "紫铜锭",
@@ -4404,7 +4404,7 @@ item_templates["Twist liek a snek"] = new Book({
         description: "勉强入级的A1级金属，性能均匀", 
         value: 16666,
         material_type: "metal",
-        image: "image/item/purplecopper_ingot.png",
+        image: "image/roll.png",
     });
     
     item_templates["宝石锭"] = new Material({
@@ -4413,7 +4413,7 @@ item_templates["Twist liek a snek"] = new Book({
         description: "利用能力宝石打成的锭。这可不会被软上限..", 
         value: 120e3,
         material_type: "metal",
-        image: "image/item/gem_ingot.png",
+        image: "image/roll.png",
     });
     item_templates["地宫金属锭"] = new Material({
         id: "地宫金属锭",
@@ -4421,7 +4421,7 @@ item_templates["Twist liek a snek"] = new Book({
         description: "强度在A2级别的合金。鱼龙混杂的地宫材料导致它制作的护甲有毒，销路糟糕。此外，因快速的市场饱和，它的市场价还没有它材料的一半贵。", 
         value: 200e3,
         material_type: "metal",
-        image: "image/item/TPmetal_ingot.png",
+        image: "image/roll.png",
     });
     item_templates["暗影钢锭"] = new Material({
         id: "暗影钢锭",
@@ -4429,7 +4429,7 @@ item_templates["Twist liek a snek"] = new Book({
         description: "由黑色刀币与魂魄重铸而成的金属。强度高达A4级——在血洛大陆，无用的物品不可能成为货币。", 
         value: 1.3e6,
         material_type: "metal",
-        image: "image/item/darksteel_ingot.png",
+        image: "image/roll.png",
     });
 
     
@@ -4439,7 +4439,7 @@ item_templates["Twist liek a snek"] = new Book({
         description: "注入了荒兽的活性成分之后，导能更加强大的柳木", 
         value: 2.333e6,
         material_type: "wood",
-        image: "image/item/active_salix.png",
+        image: "image/roll.png",
     });
     item_templates["充能合金锭"] = new Material({
         id: "充能合金锭",
@@ -4447,7 +4447,7 @@ item_templates["Twist liek a snek"] = new Book({
         description: "可以通过多种手段熔炼的A6级合金。在清野江畔一带也很难找到更好的金属了。", 
         value: 6.666e6,
         material_type: "metal",
-        image: "image/item/chargealloy_ingot.png",
+        image: "image/roll.png",
     });
     item_templates["脉冲合金锭"] = new Material({
         id: "脉冲合金锭",
@@ -4455,7 +4455,7 @@ item_templates["Twist liek a snek"] = new Book({
         description: "脉冲合金与浅蓝晶粉组成的A8级合金。拥有蓄能的特性。", 
         value: 77.777e6,
         material_type: "metal",
-        image: "image/item/pulsealloy_ingot.png",
+        image: "image/roll.png",
     });
     
     item_templates["缠绕水晶"] = new Material({
@@ -4464,7 +4464,7 @@ item_templates["Twist liek a snek"] = new Book({
         description: "模拟【缠绕骸骨】做成的剑柄部件。", 
         value: 111e6,
         material_type: "metal",
-        image: "image/item/reedy_transparent.png",
+        image: "image/roll.png",
     });
     
     item_templates["蓝金锭"] = new Material({
@@ -4473,7 +4473,7 @@ item_templates["Twist liek a snek"] = new Book({
         description: "结界湖中储量较大的A9级金属。因为生物富集作用，荒兽血肉中也含有大量这样的金属。", 
         value: 333.333e6,
         material_type: "metal",
-        image: "image/item/bluegold_ingot.png",
+        image: "image/roll.png",
     });
     item_templates["海绿锭"] = new Material({
         id: "海绿锭",
@@ -4481,7 +4481,7 @@ item_templates["Twist liek a snek"] = new Book({
         description: "利用绿色刀币铸成的B1级合金。或许是因为大人物偶尔也会用到，它基本无毒，可以用作盔甲。", 
         value: 800e6,
         material_type: "metal",
-        image: "image/item/seagreen_ingot.png",
+        image: "image/roll.png",
     });
     
     item_templates["固态凝胶"] = new Material({
@@ -4490,7 +4490,7 @@ item_templates["Twist liek a snek"] = new Book({
         description: "雷电加护劈高能凝胶出现的稳定蜡状物。比起缠绕水晶导能性质一致，手感好得多。", 
         value: 800e6,
         material_type: "metal",
-        image: "image/item/solid_rubber.png",
+        image: "image/roll.png",
     });
     
     item_templates["红钢锭"] = new Material({
@@ -4499,7 +4499,7 @@ item_templates["Twist liek a snek"] = new Book({
         description: "重甲残骸被红黑印记还原并加强后的金属。强度约为B2-B3。", 
         value: 1800e6,
         material_type: "metal",
-        image: "image/item/redsteel_ingot.png",
+        image: "image/roll.png",
     });
 
     
@@ -4509,7 +4509,7 @@ item_templates["Twist liek a snek"] = new Book({
         description: "城主府统一作为奖励发放的合金。其中似乎富含Pt/Fe/Cs,还有一些法力能量用于调和。", 
         value: 54e9,
         material_type: "metal",
-        image: "image/item/mythril_ingot.png",
+        image: "image/roll.png",
     });
     item_templates["旋律合金锭"] = new Material({
         id: "旋律合金锭",
@@ -4517,7 +4517,7 @@ item_templates["Twist liek a snek"] = new Book({
         description: "使用兽角和荧光精华炼制出的合金。强度B6级，但不适于做盔甲...否则黑暗中自带发光索敌效果。", 
         value: 648e9,
         material_type: "metal",
-        image: "image/item/melodyalloy_ingot.png",
+        image: "image/roll.png",
     });
     item_templates["万载冰髓锭"] = new Material({
         id: "万载冰髓锭",
@@ -4525,7 +4525,7 @@ item_templates["Twist liek a snek"] = new Book({
         description: "【冰原超流体】的相变产物。强度为B6级中上。", 
         value: 1.92e12,
         material_type: "metal",
-        image: "image/item/icesteel_ingot.png",
+        image: "image/roll.png",
     });
     item_templates["光暗枝丫"] = new Material({
         id: "光暗枝丫",
@@ -4533,7 +4533,7 @@ item_templates["Twist liek a snek"] = new Book({
         description: "被荧光精华注入的黑白枝丫。与精神念力更为适配，外表也更为顺滑。", 
         value: 512e9,
         material_type: "metal",
-        image: "image/item/light_twig.png",
+        image: "image/roll.png",
     });
     item_templates["黑森织料"] = new Material({
         id: "黑森织料",
@@ -4541,7 +4541,7 @@ item_templates["Twist liek a snek"] = new Book({
         description: "性质改良过的叶片。看起来不像是叶片了...不然喵可要变成野人了！", 
         value: 704e9,
         material_type: "metal",
-        image: "image/item/mixed_comp04.png",
+        image: "image/roll.png",
     });
     item_templates["峰"] = new Material({
         id: "峰",
@@ -4549,7 +4549,7 @@ item_templates["Twist liek a snek"] = new Book({
         description: "<span class='realm_cloudy'>云霄级巅峰</span><br><b><span style='color:#00fa9a'>百线流</span> <span style='color:#edec9f'>金空法则</span><br><span style='color:lime'>4.489垓</span> <span style='color:red'>167.24京</span> <span style='color:blue'>86.49京</span></b> <br><br>价值连城……但是，前提是你有命拿。", 
         value: 1.21e24,
         material_type: "metal",
-        image: "image/item/bigbrother.png",
+        image: "image/roll.png",
     });
     
     item_templates["结界湖之心·材"] = new Material({
@@ -4558,7 +4558,7 @@ item_templates["Twist liek a snek"] = new Book({
         description: "无法继续被佩戴，只是用于合成【飞船之心】的临时解决方案。", 
         value: 2.4e9,
         material_type: "metal",
-        image: "image/item/barrierlake_heart.png",
+        image: "image/roll.png",
     });
     item_templates["飞船之心·材"] = new Material({
         id: "飞船之心·材",
@@ -4566,7 +4566,7 @@ item_templates["Twist liek a snek"] = new Book({
         description: "无法继续被佩戴，只是用于合成【冰原之心】的临时材料。", 
         value: 4.8e12,
         material_type: "metal",
-        image: "image/item/spaceship_heart.png",
+        image: "image/roll.png",
     });
     item_templates["晶化合金锭"] = new Material({
         id: "晶化合金锭",
@@ -4574,7 +4574,7 @@ item_templates["Twist liek a snek"] = new Book({
         description: "【万载冰髓】与冰宫中的镶嵌宝石结合成的合金。表面十分锋利，因此不适合制作盔甲。强度为B7+级。", 
         value: 6.61e12,
         material_type: "metal",
-        image: "image/item/icealloy_ingot.png",
+        image: "image/roll.png",
     });
     item_templates["极寒织料"] = new Material({
         id: "极寒织料",
@@ -4582,7 +4582,7 @@ item_templates["Twist liek a snek"] = new Book({
         description: "将万载冰髓打碎，研磨，注入能量回路中……冰元素固然寒冷刺骨，但广谱能量抵消的特性仍然使它值得作为材料。", 
         value: 7.21e12,
         material_type: "metal",
-        image: "image/item/mixed_comp05.png",
+        image: "image/roll.png",
     });
     item_templates["冰块"] = new Material({
         id: "冰块",
@@ -4590,7 +4590,7 @@ item_templates["Twist liek a snek"] = new Book({
         description: "非常普通的冰块，在地宫都嫌便宜。完全就是建筑废料……", 
         value: 233,
         material_type: "metal",
-        image: "image/item/normal_ice.png",
+        image: "image/roll.png",
     });
     item_templates["水素合金锭"] = new Material({
         id: "水素合金锭",
@@ -4598,7 +4598,7 @@ item_templates["Twist liek a snek"] = new Book({
         description: "水素晶体注入冰原超流体得到的合金。比起冰元素，水元素与它的相性更好。它的强度为B9-级。", 
         value: 27.6e12,
         material_type: "metal",
-        image: "image/item/aquaalloy_ingot.png",
+        image: "image/roll.png",
     });
     item_templates["虹彩杖芯"] = new Material({
         id: "虹彩杖芯",
@@ -4606,7 +4606,7 @@ item_templates["Twist liek a snek"] = new Book({
         description: "悬浮着的光环杖芯本就是不错的念力兵器材料，而虹彩凝胶的多种元素更使得兵器可以更加灵活。", 
         value: 16.8e12,
         material_type: "metal",
-        image: "image/item/rainbow_ending.png",
+        image: "image/roll.png",
     });
     
 })();
@@ -4618,21 +4618,21 @@ item_templates["Twist liek a snek"] = new Book({
         name: "紫铜矿", 
         description: "普通的A1级金属矿石，可以使用毒液彻底炼化", 
         value: 2222,
-        image: "image/item/purplecopper_ore.png",
+        image: "image/roll.png",
     });
     item_templates["煤炭"] = new OtherItem({
         id: "煤炭",
         name: "煤炭", 
         description: "真正的煤炭！吸收了部分能量的它，可以提供比魔力碎晶高得多的温度。", 
         value: 999,
-        image: "image/item/coal.png",
+        image: "image/roll.png",
     });
     item_templates["百年柳木"] = new OtherItem({
         id: "百年柳木",
         name: "百年柳木", 
         description: "荒兽森林中常见的大树木材。材质相当好，适合传导力量。", 
         value: 320000,
-        image: "image/item/salix_wood.png",
+        image: "image/roll.png",
     });
     
     item_templates["湖鲤鱼"] = new OtherItem({
@@ -4640,7 +4640,7 @@ item_templates["Twist liek a snek"] = new Book({
         name: "湖鲤鱼", 
         description: "结界湖的能量也无法改变鲤鱼不好动的天性。作为大地级六阶的鱼类，连潮汐级初等的修者都有机会把它拽上来。", 
         value: 28e6,
-        image: "image/item/lake_carp.png",
+        image: "image/roll.png",
     });
     item_templates["青花鱼"] = new UsableItem({
         id: "青花鱼",
@@ -4649,7 +4649,7 @@ item_templates["Twist liek a snek"] = new Book({
         value: 84e6,
         effects: [{effect: "饱食 VI", duration: 90}],
         realmcap:18,
-        image: "image/item/cyan_fish.png",
+        image: "image/roll.png",
     });
     item_templates["冰柱鱼"] = new UsableItem({
         id: "冰柱鱼",
@@ -4658,7 +4658,7 @@ item_templates["Twist liek a snek"] = new Book({
         value: 216e6,
         effects: [{effect: "饱食 VI", duration: 540}],
         realmcap:20,
-        image: "image/item/ice_fish.png",
+        image: "image/roll.png",
     });
 })();
 
@@ -4669,7 +4669,7 @@ item_templates["Twist liek a snek"] = new Book({
         name: "地图-藏宝地", 
         description: "绘制着最近新发现的一处藏宝地。(纳可已经记住地点，可以放心售卖)", 
         value: 999,
-        image: "image/item/MT15.png",
+        image: "image/roll.png",
     });
     
     item_templates["牵制-从入门到入土"] = new OtherItem({
@@ -4677,7 +4677,7 @@ item_templates["Twist liek a snek"] = new Book({
         name: "牵制-从入门到入土", 
         description: "被完全涂黑了，只留下一句血洛大陆通用语的血书：牵制毁一生,匙弱穷三代。", 
         value: 11037,
-        image: "image/item/BurnBlood.png",
+        image: "image/roll.png",
     });
 
     
@@ -4685,7 +4685,7 @@ item_templates["Twist liek a snek"] = new Book({
         name: "微花残片", 
         description: "没事...父亲大人进不去秘境。他肯定不知道是我偷偷把光环弄坏的！(持有时2-3与2-4 BOSS战光环-8%/个，不少于0%)",
         value: 99e6,
-        image: "image/item/MF_fragment.png",
+        image: "image/roll.png",
     });
     
     item_templates["符文工作台套件"] = new UsableItem({
@@ -4694,7 +4694,7 @@ item_templates["Twist liek a snek"] = new Book({
         description: "海量海绿锭和废墟符文雕刻成的工作台。[使用]此物品即可解锁T8工作台的使用！(对了，制作配方需要材料多的可怕，所以建议直接买)", 
         value: 500e9,
         spec:"T8-table",
-        image: "image/item/rune_workingtable.png",
+        image: "image/roll.png",
     });
     item_templates["极寒相变引擎"] = new UsableItem({
         id: "极寒相变引擎",
@@ -4702,7 +4702,7 @@ item_templates["Twist liek a snek"] = new Book({
         description: "使用多冲程压缩-膨胀来制冷的套件，附带隔热装置。<br>可用于生产万载冰髓与玄冰果实·觉醒。<br>具体使用方式详见左下角问号菜单！", 
         value: 96e12,
         spec:"freezing_engine",
-        image: "image/item/freezing_engine.png",
+        image: "image/roll.png",
     });
     item_templates["冰宫商人"] = new UsableItem({
         id: "冰宫商人",
@@ -4710,7 +4710,7 @@ item_templates["Twist liek a snek"] = new Book({
         description: "冰宫的女巫们已经把他的身上给搜干净了。当奴隶还能卖一点钱，但放走了等他对接货源收益更高！<br>PS:每血洛日0点刷新商品", 
         value: 5.21e12,
         spec:"saved_trader",
-        image: "image/item/icepalace_trader.png",
+        image: "image/roll.png",
     });
 })();
 
@@ -4722,7 +4722,7 @@ item_templates["Twist liek a snek"] = new Book({
         value: 20,
         realmcap:5,
         effects: [{effect: "饱食", duration: 60}],
-        image: "image/item/O1_cooked_meat.png",
+        image: "image/roll.png",
     });
     item_templates["万物·凶兽肉排"] = new UsableItem({
         name: "万物·凶兽肉排", 
@@ -4730,7 +4730,7 @@ item_templates["Twist liek a snek"] = new Book({
         value: 240,
         realmcap:7,
         effects: [{effect: "饱食 II", duration: 60}],
-        image: "image/item/O5_cooked_meat.png",
+        image: "image/roll.png",
     });
     item_templates["潮汐·凶兽肉排"] = new UsableItem({
         name: "潮汐·凶兽肉排", 
@@ -4738,7 +4738,7 @@ item_templates["Twist liek a snek"] = new Book({
         value: 6000,
         effects: [{effect: "饱食 III", duration: 60}],
         realmcap:8,
-        image: "image/item/O8_cooked_meat.png",
+        image: "image/roll.png",
     });
     item_templates["地宫恢复药水"] = new UsableItem({
         name: "地宫恢复药水", 
@@ -4746,7 +4746,7 @@ item_templates["Twist liek a snek"] = new Book({
         value: 210e3,
         effects: [{effect: "恢复 A1", duration: 60}],
         realmcap:11,
-        image: "image/item/A1_medicine.png",
+        image: "image/roll.png",
     });
     item_templates["地宫狂暴药水"] = new UsableItem({
         name: "地宫狂暴药水", 
@@ -4754,7 +4754,7 @@ item_templates["Twist liek a snek"] = new Book({
         value: 420e3,
         realmcap:11,
         effects: [{effect: "强化 A1", duration: 30},{effect: "虚弱", duration: 90}],
-        image: "image/item/A1_booster.png",
+        image: "image/roll.png",
     });
     item_templates["地宫·荒兽肉排"] = new UsableItem({
         name: "地宫·荒兽肉排", 
@@ -4762,7 +4762,7 @@ item_templates["Twist liek a snek"] = new Book({
         value: 500e3,
         effects: [{effect: "饱食 IV", duration: 90}],
         realmcap:11,
-        image: "image/item/A2_cooked_meat.png",
+        image: "image/roll.png",
     });
     item_templates["森林·荒兽肉排"] = new UsableItem({
         name: "森林·荒兽肉排", 
@@ -4770,7 +4770,7 @@ item_templates["Twist liek a snek"] = new Book({
         value: 1.8e6,
         effects: [{effect: "饱食 V", duration: 60}],
         realmcap:14,
-        image: "image/item/A4_cooked_meat.png",
+        image: "image/roll.png",
     });//
     
     item_templates["A9·魔攻药剂"] = new UsableItem({
@@ -4779,7 +4779,7 @@ item_templates["Twist liek a snek"] = new Book({
         value: 240e6,
         realmcap:18,
         effects: [{effect: "魔攻 A9", duration: 120}],
-        image: "image/item/A9_magic.png",
+        image: "image/roll.png",
     });
     item_templates["A9·牵制药剂"] = new UsableItem({
         name: "A9·牵制药剂", 
@@ -4787,7 +4787,7 @@ item_templates["Twist liek a snek"] = new Book({
         value: 240e6,
         realmcap:18,
         effects: [{effect: "牵制 A9", duration: 120}],
-        image: "image/item/A9_contain.png",
+        image: "image/roll.png",
     });
     item_templates["A9·回风药剂"] = new UsableItem({
         name: "A9·回风药剂", 
@@ -4795,7 +4795,7 @@ item_templates["Twist liek a snek"] = new Book({
         value: 240e6,
         realmcap:18,
         effects: [{effect: "回风 A9", duration: 120}],
-        image: "image/item/A9_rewind.png",
+        image: "image/roll.png",
     });
     item_templates["A9·坚固药剂"] = new UsableItem({
         name: "A9·坚固药剂", 
@@ -4803,7 +4803,7 @@ item_templates["Twist liek a snek"] = new Book({
         value: 240e6,
         realmcap:18,
         effects: [{effect: "坚固 A9", duration: 120}],
-        image: "image/item/A9_hard.png",
+        image: "image/roll.png",
     });
     
     item_templates["废墟恢复药水"] = new UsableItem({
@@ -4812,7 +4812,7 @@ item_templates["Twist liek a snek"] = new Book({
         value: 180e6,
         effects: [{effect: "恢复 A8", duration: 60}],
         realmcap:21,
-        image: "image/item/A8_medicine.png",
+        image: "image/roll.png",
     });
     item_templates["废墟狂暴药水"] = new UsableItem({
         name: "废墟狂暴药水", 
@@ -4820,7 +4820,7 @@ item_templates["Twist liek a snek"] = new Book({
         value: 360e6,
         realmcap:21,
         effects: [{effect: "强化 A8", duration: 30},{effect: "虚弱", duration: 90}],
-        image: "image/item/A8_booster.png",
+        image: "image/roll.png",
     });
 
     
@@ -4830,7 +4830,7 @@ item_templates["Twist liek a snek"] = new Book({
         value: 540e6,
         effects: [{effect: "饱食 VII", duration: 60}],
         realmcap:21,
-        image: "image/item/A8_cooked_meat.png",
+        image: "image/roll.png",
     });//
 
     
@@ -4840,7 +4840,7 @@ item_templates["Twist liek a snek"] = new Book({
         value: 120e9,
         realmcap:23,
         effects: [{effect: "坚固 A9", duration: 30}],
-        image: "image/item/B3_hard.png",
+        image: "image/roll.png",
     });
 
     item_templates["血气升腾药剂"] = new UsableItem({
@@ -4849,7 +4849,7 @@ item_templates["Twist liek a snek"] = new Book({
         value: 3e9,
         realmcap:24,
         effects: [{effect: "恢复 B1", duration: 90}],
-        image: "image/item/B1_life_medicine.png",
+        image: "image/roll.png",
     });
 
     item_templates["能量冰沙"] = new UsableItem({
@@ -4858,7 +4858,7 @@ item_templates["Twist liek a snek"] = new Book({
         value: 3e12,
         realmcap:27,
         effects: [{effect: "恢复 B4", duration: 90}],
-        image: "image/item/B4_medicine.png",
+        image: "image/roll.png",
     });
     
     item_templates["沼泽·荒兽肉排"] = new UsableItem({
@@ -4867,7 +4867,7 @@ item_templates["Twist liek a snek"] = new Book({
         value: 160e9,
         effects: [{effect: "饱食 VIII", duration: 90}],
         realmcap:24,
-        image: "image/item/B3_cooked_meat.png",
+        image: "image/roll.png",
     });//
 
 
@@ -4878,7 +4878,7 @@ item_templates["Twist liek a snek"] = new Book({
         value: 8.4e12,
         realmcap:27,
         effects: [{effect: "反戈 B9", duration: 120}],
-        image: "image/item/B9_reflect.png",
+        image: "image/roll.png",
     });
     item_templates["B9·灵闪药剂"] = new UsableItem({
         name: "B9·灵闪药剂", 
@@ -4886,7 +4886,7 @@ item_templates["Twist liek a snek"] = new Book({
         value: 8.4e12,
         realmcap:27,
         effects: [{effect: "灵闪 B9", duration: 120}],
-        image: "image/item/B9_spiritdodge.png",
+        image: "image/roll.png",
     });
     item_templates["B9·散华药剂"] = new UsableItem({
         name: "B9·散华药剂", 
@@ -4894,7 +4894,7 @@ item_templates["Twist liek a snek"] = new Book({
         value: 8.4e12,
         realmcap:27,
         effects: [{effect: "散华 B9", duration: 120}],
-        image: "image/item/B9_sublimhealth.png",
+        image: "image/roll.png",
     });
     item_templates["B9·异界药剂"] = new UsableItem({
         name: "B9·异界药剂", 
@@ -4902,7 +4902,7 @@ item_templates["Twist liek a snek"] = new Book({
         value: 8.4e12,
         realmcap:27,
         effects: [{effect: "异界之门 B9", duration: 120}],
-        image: "image/item/B9_portal.png",
+        image: "image/roll.png",
     });
     /*
 
@@ -4916,31 +4916,31 @@ item_templates["Twist liek a snek"] = new Book({
         name: "粘合织料", 
         description: "涂抹了凝胶的飞蛾翅膀结合体，适合与皮肤亲密接触",
         value: 12,
-        image: "image/item/mixed_comp01.png",
+        image: "image/roll.png",
     });
     item_templates["润灵铜骨"] = new OtherItem({
         name: "润灵铜骨", 
         description: "用灵液将铜骨和天蚕丝融合的产物", 
         value: 10000,
-        image: "image/item/aura_bone.png",
+        image: "image/roll.png",
     });
     item_templates["活性织料"] = new OtherItem({
         name: "活性织料", 
         description: "有一定生命活性的耐极端环境混合物。其类似物曾被用于制造【黑神】套装。",
         value: 1.10e6,
-        image: "image/item/mixed_comp02.png",
+        image: "image/roll.png",
     });
     item_templates["湛蓝芦苇"] = new OtherItem({
         name: "湛蓝芦苇", 
         description: "秘境芦苇的纤维被水溶精华分散，填充。传导能量，抵消攻击的能力有了巨大的提高。",
         value: 30e6,
-        image: "image/item/blue_reed.png",
+        image: "image/roll.png",
     });
     item_templates["高能织料"] = new OtherItem({
         name: "高能织料", 
         description: "蕴含着大量待释放能量的粘性材料，在攻击袭来时首先可以抵消一部分。",
         value: 240e6,
-        image: "image/item/mixed_comp03.png",
+        image: "image/roll.png",
     });
 })();
 
@@ -4950,7 +4950,7 @@ item_templates["Twist liek a snek"] = new Book({
         name: "初始黄宝石", 
         description: "可以强化力量的晶体，使用时随机增加攻击/防御/敏捷1点或生命50点", 
         value: 1,
-        image: "image/item/gem11_1.png",
+        image: "image/roll.png",
         effects: [],
         gem_value: 1,
     });
@@ -4958,7 +4958,7 @@ item_templates["Twist liek a snek"] = new Book({
         name: "初始蓝宝石", 
         description: "可以强化力量的晶体，使用时随机增加攻击/防御/敏捷2点或生命100点",
         value: 2,
-        image: "image/item/gem12_2.png",
+        image: "image/roll.png",
         effects: [],
         gem_value: 2,
     });
@@ -4966,7 +4966,7 @@ item_templates["Twist liek a snek"] = new Book({
         name: "初始红宝石", 
         description: "可以强化力量的晶体，使用时随机增加攻击/防御/敏捷5点或生命250点",
         value: 5,
-        image: "image/item/gem13_5.png",
+        image: "image/roll.png",
         effects: [],
         gem_value: 5,
     });
@@ -4974,7 +4974,7 @@ item_templates["Twist liek a snek"] = new Book({
         name: "初始绿宝石", 
         description: "可以强化力量的晶体，使用时随机增加攻击/防御/敏捷10点或生命500点", 
         value: 10,
-        image: "image/item/gem14_10.png",
+        image: "image/roll.png",
         effects: [],
         gem_value: 10,
     });
@@ -4982,7 +4982,7 @@ item_templates["Twist liek a snek"] = new Book({
         name: "高级黄宝石", 
         description: "高阶的晶体，使用时随机增加攻击/防御/敏捷20点或生命1000点", 
         value: 20,
-        image: "image/item/gem21_20.png",
+        image: "image/roll.png",
         effects: [],
         gem_value: 20,
     });
@@ -4990,7 +4990,7 @@ item_templates["Twist liek a snek"] = new Book({
         name: "高级蓝宝石", 
         description: "高阶的晶体，使用时随机增加攻击/防御/敏捷50点或生命2500点",
         value: 50,
-        image: "image/item/gem22_50.png",
+        image: "image/roll.png",
         effects: [],
         gem_value: 50,
     });
@@ -4998,7 +4998,7 @@ item_templates["Twist liek a snek"] = new Book({
         name: "高级红宝石", 
         description: "高阶的晶体，使用时随机增加攻击/防御/敏捷100点或生命5000点",
         value: 100,
-        image: "image/item/gem23_100.png",
+        image: "image/roll.png",
         effects: [],
         gem_value: 100,
     });
@@ -5006,7 +5006,7 @@ item_templates["Twist liek a snek"] = new Book({
         name: "高级绿宝石", 
         description: "高阶的晶体，使用时随机增加攻击/防御/敏捷200点或生命1万点", 
         value: 200,
-        image: "image/item/gem24_200.png",
+        image: "image/roll.png",
         effects: [],
         gem_value: 200,
     });
@@ -5014,7 +5014,7 @@ item_templates["Twist liek a snek"] = new Book({
         name: "极品黄宝石", 
         description: "极为珍贵的晶体，使用时随机增加攻击/防御/敏捷500点或生命2.5万点", 
         value: 500,
-        image: "image/item/gem31_500.png",
+        image: "image/roll.png",
         effects: [],
         gem_value: 500,
     });
@@ -5022,7 +5022,7 @@ item_templates["Twist liek a snek"] = new Book({
         name: "极品蓝宝石", 
         description: "极为珍贵的晶体，使用时随机增加攻击/防御/敏捷1000点或生命5万点", 
         value: 1000,
-        image: "image/item/gem32_1k.png",
+        image: "image/roll.png",
         effects: [],
         gem_value: 1000,
     });
@@ -5030,7 +5030,7 @@ item_templates["Twist liek a snek"] = new Book({
         name: "极品红宝石", 
         description: "极为珍贵的晶体，使用时随机增加攻击/防御/敏捷2000点或生命10万点", 
         value: 2000,
-        image: "image/item/gem33_2k.png",
+        image: "image/roll.png",
         effects: [],
         gem_value: 2000,
     });
@@ -5038,7 +5038,7 @@ item_templates["Twist liek a snek"] = new Book({
         name: "极品绿宝石", 
         description: "极为珍贵的晶体，使用时随机增加攻击/防御/敏捷5000点或生命25万点", 
         value: 5000,
-        image: "image/item/gem34_5k.png",
+        image: "image/roll.png",
         effects: [],
         gem_value: 5000,
     });
@@ -5046,7 +5046,7 @@ item_templates["Twist liek a snek"] = new Book({
         name: "殿堂黄宝石", 
         description: "普通人一生难得一见的晶体，使用时随机增加攻击/防御/敏捷1万点或生命100万点", 
         value: 10000,
-        image: "image/item/gem41_10k.png",
+        image: "image/roll.png",
         effects: [],
         gem_value: 10000,
     });
@@ -5054,7 +5054,7 @@ item_templates["Twist liek a snek"] = new Book({
         name: "殿堂蓝宝石", 
         description: "普通人一生难得一见的晶体，使用时随机增加攻击/防御/敏捷2万点或生命200万点", 
         value: 20000,
-        image: "image/item/gem42_20k.png",
+        image: "image/roll.png",
         effects: [],
         gem_value: 20000,
     });
@@ -5062,7 +5062,7 @@ item_templates["Twist liek a snek"] = new Book({
         name: "殿堂红宝石", 
         description: "普通人一生难得一见的晶体，使用时随机增加攻击/防御/敏捷5万点或生命500万点", 
         value: 50000,
-        image: "image/item/gem43_50k.png",
+        image: "image/roll.png",
         effects: [],
         gem_value: 50000,
     });
@@ -5070,7 +5070,7 @@ item_templates["Twist liek a snek"] = new Book({
         name: "殿堂绿宝石", 
         description: "普通人一生难得一见的晶体，使用时随机增加攻击/防御/敏捷10万点或生命1000万点", 
         value: 100000,
-        image: "image/item/gem44_100k.png",
+        image: "image/roll.png",
         effects: [],
         gem_value: 100000,
     });
@@ -5078,7 +5078,7 @@ item_templates["Twist liek a snek"] = new Book({
         name: "史诗黄宝石", 
         description: "极端稀有的晶体，使用时随机增加攻击/防御/敏捷20万点或生命2000万点", 
         value: 200000,
-        image: "image/item/gem51_200k.png",
+        image: "image/roll.png",
         effects: [],
         gem_value: 200000,
     });
@@ -5086,7 +5086,7 @@ item_templates["Twist liek a snek"] = new Book({
         name: "史诗蓝宝石", 
         description: "极端稀有的晶体，使用时随机增加攻击/防御/敏捷50万点或生命5000万点", 
         value: 500000,
-        image: "image/item/gem52_500k.png",
+        image: "image/roll.png",
         effects: [],
         gem_value: 500000,
     });
@@ -5094,7 +5094,7 @@ item_templates["Twist liek a snek"] = new Book({
         name: "史诗红宝石", 
         description: "极端稀有的晶体，使用时随机增加攻击/防御/敏捷100万点或生命1亿点", 
         value: 1000000,
-        image: "image/item/gem53_1M.png",
+        image: "image/roll.png",
         effects: [],
         gem_value: 1000000,
     });
@@ -5102,7 +5102,7 @@ item_templates["Twist liek a snek"] = new Book({
         name: "史诗绿宝石", 
         description: "极端稀有的晶体，使用时随机增加攻击/防御/敏捷200万点或生命2亿点", 
         value: 2000000,
-        image: "image/item/gem54_2M.png",
+        image: "image/roll.png",
         effects: [],
         gem_value: 2000000,
     });
@@ -5110,7 +5110,7 @@ item_templates["Twist liek a snek"] = new Book({
         name: "传说黄宝石", 
         description: "能引发天空级强者厮杀的宝物，使用时随机增加攻击/防御/敏捷500万点或生命5亿点", 
         value: 5000000,
-        image: "image/item/gem61_5M.png",
+        image: "image/roll.png",
         effects: [],
         gem_value: 5000000,
     });
@@ -5118,7 +5118,7 @@ item_templates["Twist liek a snek"] = new Book({
         name: "传说蓝宝石", 
         description: "能引发天空级强者厮杀的宝物，使用时随机增加攻击/防御/敏捷1000万点或生命10亿点", 
         value: 10000000,
-        image: "image/item/gem62_10M.png",
+        image: "image/roll.png",
         effects: [],
         gem_value: 10000000,
     });
@@ -5126,7 +5126,7 @@ item_templates["Twist liek a snek"] = new Book({
         name: "传说红宝石", 
         description: "能引发天空级强者厮杀的宝物，使用时随机增加攻击/防御/敏捷2000万点或生命20亿点", 
         value: 20000000,
-        image: "image/item/gem63_20M.png",
+        image: "image/roll.png",
         effects: [],
         gem_value: 20000000,
     });
@@ -5134,7 +5134,7 @@ item_templates["Twist liek a snek"] = new Book({
         name: "传说绿宝石", 
         description: "能引发天空级强者厮杀的宝物，使用时随机增加攻击/防御/敏捷5000万点或生命50亿点", 
         value: 50000000,
-        image: "image/item/gem64_50M.png",
+        image: "image/roll.png",
         effects: [],
         gem_value: 50000000,
     });
@@ -5148,49 +5148,49 @@ item_templates["Twist liek a snek"] = new Book({
         name: "凝胶", 
         description: "从死去的史莱姆中发现的凝胶。可以用作缓冲垫，但并不耐用。", 
         value: 1,
-        image: "image/item/rubber.png",
+        image: "image/roll.png",
     });
     item_templates["金属残片"] = new Loot({
         name: "金属残片", 
         description: "损坏的普通金属片。已经无法用于制造剑盾，但或许还能重新熔炼？", 
         value: 4,
-        image: "image/item/iron_fragment.png",
+        image: "image/roll.png",
     });
     item_templates["魔力碎晶"] = new Loot({
         name: "魔力碎晶", 
         description: "一小块残留着魔力的水晶。内部的能量仍然足以烤肉或炼铁。",//烤肉 
         value: 6,
-        image: "image/item/magic_fragment.png",
+        image: "image/roll.png",
     });
     item_templates["飞蛾翅膀"] = new Loot({
         name: "飞蛾翅膀", 
         description: "飞蛾留下的完整翅膀。可以用作衣服的材料", 
         value: 8,
-        image: "image/item/fly_wing.png",
+        image: "image/roll.png",
     });
     item_templates["坚硬石块"] = new Loot({
         name: "坚硬石块", 
         description: "燕岗城郊山上的大块石头，废弃傀儡和石头人也是它们制造的。", 
         value: 5,
-        image: "image/item/hard_rock.png",
+        image: "image/roll.png",
     });
     item_templates["微尘·凶兽肉块"] = new Loot({
         name: "微尘·凶兽肉块", 
         description: "微尘级凶兽的肉。散发着腥味，或许需要烤一烤？", //加魔力碎晶
         value: 8,
-        image: "image/item/O1_meat.png",
+        image: "image/roll.png",
     });
     item_templates["骨头"] = new Loot({
         name: "骨头", 
         description: "一根粗大的骨头。光是拿着就感觉阴森森的..", 
         value: 6,
-        image: "image/item/bone.png",
+        image: "image/roll.png",
     });
     item_templates["铜骨"] = new Loot({
         name: "铜骨", 
         description: "万物级骷髅死后留下的青铜骨头。它的硬度和韧性都很不错！", 
         value: 20,
-        image: "image/item/copper_bone.png",
+        image: "image/roll.png",
     });
 
 
@@ -5199,19 +5199,19 @@ item_templates["Twist liek a snek"] = new Book({
         name: "万物·凶兽肉块", 
         description: "万物级凶兽的肉。蕴含的气血充沛，价格略高。", //加魔力碎晶
         value: 200,
-        image: "image/item/O5_meat.png",
+        image: "image/roll.png",
     });
     item_templates["合金残片"] = new Loot({
         name: "合金残片", 
         description: "傀儡身上的特殊金属，掺杂在铁锭中可以增强硬度", 
         value: 150,
-        image: "image/item/alloy_fragment.png",
+        image: "image/roll.png",
     });
     item_templates["异兽皮"] = new Loot({
         name: "异兽皮", 
         description: "万物级异兽的皮毛，兼具硬度和韧性", 
         value: 500,
-        image: "image/item/O5_leather.png",
+        image: "image/roll.png",
     });
 
     //1-3
@@ -5219,25 +5219,25 @@ item_templates["Twist liek a snek"] = new Book({
         name: "毒液", 
         description: "郊外常见的毒素集合体。A1级合金“紫铜”需要它作为原材料。", 
         value: 2000,
-        image: "image/item/poison_drop.png",
+        image: "image/roll.png",
     });
     item_templates["灵液"] = new Loot({
         name: "灵液", 
         description: "潮汐级魔物的精华，具有多种优异性能。", 
         value: 2500,
-        image: "image/item/aura_drop.png",
+        image: "image/roll.png",
     });
     item_templates["天蚕丝"] = new Loot({
         name: "天蚕丝", 
         description: "切叶虫茧的构建材料，蕴含有风元素。初步具有智慧的潮汐级凶兽也常常携带着它。", 
         value: 3000,
-        image: "image/item/sky_silk.png",
+        image: "image/roll.png",
     });
     item_templates["潮汐·凶兽肉块"] = new Loot({
         name: "潮汐·凶兽肉块", 
         description: "潮汐级凶兽的肉。蕴含有元素之力，没有煤炭火焰难以煮熟。", 
         value: 5000,
-        image: "image/item/O8_meat.png",
+        image: "image/roll.png",
     });
 
     //1-4
@@ -5245,44 +5245,44 @@ item_templates["Twist liek a snek"] = new Book({
         name: "大地级魂魄", 
         description: "纯灵体荒兽体内的魂魄。经处理后可以成为纯净的能量。", 
         value: 80e3,
-        image: "image/item/A1_soul.png",
+        image: "image/roll.png",
     });
     item_templates["巨型眼球"] = new Loot({
         name: "巨型眼球", 
         description: "大地级荒兽的眼球，可以作为生命恢复药剂的素材", 
         value: 100e3,
-        image: "image/item/A1_eye.png",
+        image: "image/roll.png",
     });
     item_templates["A1·能量核心"] = new Loot({
         name: "A1·能量核心", 
         description: "部分“内丹”修炼体系荒兽体内的核心。可以在短时间内诱导出巨大的力量。", 
         value: 120e3,
-        image: "image/item/A1_crystal.png",
+        image: "image/roll.png",
     });
     item_templates["断剑"] = new Loot({
         name: "断剑", 
         description: "荒兽使用的土制低劣武器。虽然本身易于断裂，但是它的潜力不止于此", 
         value: 80e3,
-        image: "image/item/A1_sword.png",
+        image: "image/roll.png",
     });
     //1-5
     item_templates["地宫·荒兽肉块"] = new Loot({
         name: "地宫·荒兽肉块", 
         description: "地宫核心可以吃的荒兽肉！原来是能吃的荒兽都跑到核心去了嘛？", 
         value: 300e3,
-        image: "image/item/A2_meat.png",
+        image: "image/roll.png",
     });
     item_templates["霜炙皮草"] = new Loot({
         name: "霜炙皮草", 
         description: "可以耐受极寒与炙热的皮草，只能从大地级荒兽中获取", 
         value: 400e3,
-        image: "image/item/temp_leather.png",
+        image: "image/roll.png",
     });
     item_templates["流动凝胶"] = new Loot({
         name: "流动凝胶", 
         description: "大地级流动怪物死后留下的凝胶。比起潮汐级以下的死物，它们仍然保有一定的活性。", 
         value: 500e3,
-        image: "image/item/living_rubber.png",
+        image: "image/roll.png",
     });
 
     //1-5
@@ -5291,7 +5291,7 @@ item_templates["Twist liek a snek"] = new Book({
         name: "一丝荒兽森林感悟", 
         description: "在荒兽森林的战斗中，积累的战斗经验和突破感悟。(已弃用/现版本无法获取/请去找心之石像白嫖一颗突破)", 
         value: 0,
-        image: "image/item/A1_break_trance.png",
+        image: "image/roll.png",
     });
     item_templates["凝实荒兽森林感悟"] = new  UsableItem({
         name: "凝实荒兽森林感悟", 
@@ -5300,49 +5300,49 @@ item_templates["Twist liek a snek"] = new Book({
         E_value: 10000000,
         effects:[],
         C_value: 1,
-        image: "image/item/A1_break_clump.png",
+        image: "image/roll.png",
     });
     item_templates["A4·能量核心"] = new Loot({
         name: "A4·能量核心", 
         description: "部分“内丹”修炼体系荒兽体内的核心。可以在短时间内诱导出巨大的力量。", 
         value: 960e3,
-        image: "image/item/A4_crystal.png",
+        image: "image/roll.png",
     });
     item_templates["森林·荒兽肉块"] = new Loot({
         name: "森林·荒兽肉块", 
         description: "作为以荒兽闻名的森林，这里的肉比地宫多多了...", 
         value: 1.2e6,
-        image: "image/item/A4_meat.png",
+        image: "image/roll.png",
     });
     item_templates["甲壳碎片"] = new Loot({
         name: "甲壳碎片", 
         description: "有坚硬外骨骼荒兽的甲壳碎片。用于熔炼A6级充能合金。", 
         value: 1.35e6,
-        image: "image/item/A4_fragment.png",
+        image: "image/roll.png",
     });
     item_templates["荒兽精华"] = new Loot({
         name: "荒兽精华", 
         description: "虽然它既不好吃还没有壳，但是它的心头血还是能量充沛的。", 
         value: 1.5e6,
-        image: "image/item/beast_essence.png",
+        image: "image/roll.png",
     });
     item_templates["水溶精华"] = new Loot({
         name: "水溶精华", 
         description: "江边水生系荒兽的精华。可以用作魔法药剂的材料。", 
         value: 4.5e6,
-        image: "image/item/aq_essence.png",
+        image: "image/roll.png",
     });
     item_templates["秘境芦苇"] = new Loot({
         name: "秘境芦苇", 
         description: "纳家秘境里的一种柔性材料，可以吸收能量攻击，许多修行者和荒兽都会携带。", 
         value: 2.4e7,
-        image: "image/item/A6_reed.png",
+        image: "image/roll.png",
     });
     item_templates["浅蓝晶粉"] = new Loot({
         name: "浅蓝晶粉", 
         description: "某种更蓝一些的末影珍珠同位体。很遗憾，血洛大陆的传送没那么容易。", 
         value: 3.2e7,
-        image: "image/item/LB_powder.png",
+        image: "image/roll.png",
     });
 
     
@@ -5350,85 +5350,85 @@ item_templates["Twist liek a snek"] = new Book({
         name: "A7·能量核心", 
         description: "部分“灵”体内的能量结晶。可以在短时间内诱导出巨大的力量。", 
         value: 64e6,
-        image: "image/item/A7_crystal.png",
+        image: "image/roll.png",
     });
     item_templates["蓝金碎片"] = new Loot({
         name: "蓝金碎片", 
         description: "威武武士就是靠这个变成威武异衣士的。出乎意料的，秘境里居然有高强金属！", 
         value: 72e6,
-        image: "image/item/bluegold_fragment.png",
+        image: "image/roll.png",
     });
     item_templates["透明水晶"] = new Loot({
         name: "透明水晶", 
         description: "比柳木更好一线的剑柄能量传导材料。唯一的缺点是过于坚硬，难以直接握住。", 
         value: 80e6,
-        image: "image/item/transparent_crystal.png",
+        image: "image/roll.png",
     });
     item_templates["结界湖血肉"] = new Loot({
         name: "结界湖血肉", 
         description: "死水旁边的荒兽不能直接吃！但是可以用来铸造蓝金...", 
         value: 96e6,
-        image: "image/item/A7-flesh.png",
+        image: "image/roll.png",
     });
     item_templates["废墟符文"] = new Loot({
         name: "废墟符文", 
         description: "似乎蕴含着神奇的力量。积攒的足够多可以造出一台T8工作台...当然，直接买便宜多了。", 
         value: 120e6,
-        image: "image/item/ruin_rune.png",
+        image: "image/roll.png",
     });
     item_templates["废墟精华"] = new Loot({
         name: "废墟精华", 
         description: "从废墟中萌发的蓬勃生命力。可以与水火徽章形成共鸣，或者用于制造更多缠绕水晶。", 
         value: 144e6,
-        image: "image/item/ruin_essence.png",
+        image: "image/roll.png",
     });
     item_templates["高能凝胶"] = new Loot({
         name: "高能凝胶", 
         description: "战场灵体生物体内的黑色凝胶。汇聚了能量，有多种用途。", 
         value: 160e6,
-        image: "image/item/warfield_rubber.png",
+        image: "image/roll.png",
     });
     item_templates["战场·荒兽肉块"] = new Loot({
         name: "战场·荒兽肉块", 
         description: "虽然环境混乱不堪，但是抵达大地级后期的荒兽都拥有自我净化能力。即使是哥布林也能吃...", 
         value: 480e6,
-        image: "image/item/A8_meat.png",
+        image: "image/roll.png",
     });
     item_templates["B1·能量核心"] = new Loot({
         name: "B1·能量核心", 
         description: "你知道这是什么的，对吧？超进化·煤炭desu！", 
         value: 2.64e9,
-        image: "image/item/B1_crystal.png",
+        image: "image/roll.png",
     });
     item_templates["红黑印记"] = new Loot({
         name: "红黑印记", 
         description: "制式重工机械体内的专属印记。可以用于在熔炼时增加金属的强度。", 
         value: 720e6,
-        image: "image/item/redblack_mark.png",
+        image: "image/roll.png",
     });
     item_templates["雷电加护"] = new Loot({
         name: "雷电加护", 
         description: "阻激夹域机械体内的一缕电属性痕迹。法则属性几乎为0，但已足以固化高能凝胶。", 
         value: 600e6,
-        image: "image/item/electric_mark.png",
+        image: "image/roll.png",
     });
     item_templates["重甲残骸"] = new Loot({
         name: "重甲残骸", 
         description: "飞船冒险者留下的铠甲。尚未被红黑印记增幅。", 
         value: 540e6,
-        image: "image/item/heavyarmor_shard.png",
+        image: "image/roll.png",
     });
     item_templates["摩羽币"] = new Loot({
         name: "摩羽币", 
         description: "中等宇宙国度的货币。按宇宙币计价大约只有200Z的价值，但在血洛大陆相当有收藏意义。", 
         value: 1600e6,
-        image: "image/item/MY_coin.png",
+        image: "image/roll.png",
     });
     item_templates["进化结晶凝聚-一学就会"] = new Loot({
         name: "进化结晶凝聚-一学就会", 
         description: "因为一学就会，你已经学会了。可以卖掉它了！(请检查核心反应堆)", 
         value: 100e9,
-        image: "image/item/evolve_script.png",
+        image: "image/roll.png",
     });
     item_templates["初等进化结晶"] = new  UsableItem({
         name: "初等进化结晶", 
@@ -5437,132 +5437,132 @@ item_templates["Twist liek a snek"] = new Book({
         E_value: 1000e8,
         effects:[],
         C_value: 2,
-        image: "image/item/evolve_1e11.png",
+        image: "image/roll.png",
     });
     item_templates["一捆高能凝胶"] = new Loot({
         name: "一捆高能凝胶", 
         description: "飞船核心机械的冷却剂。可以拆分为100个普通高能凝胶。", 
         value: 16000e6,
-        image: "image/item/warfield_rubber_100.png",
+        image: "image/roll.png",
     });
     item_templates["一捆B1·能量核心"] = new Loot({
         name: "一捆B1·能量核心", 
         description: "飞船核心机械的能量源。可以拆分为100个普通B1·能量核心。", 
         value: 264e9,
-        image: "image/item/B1_crystal_100.png",
+        image: "image/roll.png",
     });
     item_templates["B6·飞船核心"] = new Loot({
         name: "B6·飞船核心", 
         description: "强烈建议不要卖掉。【结界湖之心】在V3.0X将会超过好不容易省下的姐姐，而重铸一颗飞船核心非常昂贵...", 
         value: 666666e6,
-        image: "image/item/B6_spaceship_core.png",
+        image: "image/roll.png",
     });
     //3幕
     item_templates["荒兽凭证"] = new Loot({
         name: "荒兽凭证", 
         description: "击杀【天空级初期】荒兽的证明。可以用于在沼泽入口兑换材料。一只荒兽只会有一份，但人可能有更多...", 
         value: 2e9,
-        image: "image/item/B3_ear.png",
+        image: "image/roll.png",
     });
     item_templates["沼泽·荒兽肉块"] = new Loot({
         name: "沼泽·荒兽肉块", 
         description: "或许会因为进化过快有辐射。但天空级完全可以无视这些杂乱的能量了~", 
         value: 80e9,
-        image: "image/item/B3_meat.png",
+        image: "image/roll.png",
     });
     item_templates["荧光精华"] = new Loot({
         name: "荧光精华", 
         description: "沼泽天然发光体的遗物。它的荧光可以驱散常年不散的瘴气。", 
         value: 64e9,
-        image: "image/item/firefly_essence.png",
+        image: "image/roll.png",
     });
     item_templates["沼泽兽油"] = new Loot({
         name: "沼泽兽油", 
         description: "虽然卖相不好，却是荧光精华想要长期发光不可或缺的补给品。它还有一些邪恶的用法..", 
         value: 48e9,
-        image: "image/item/B3_oil.png",
+        image: "image/roll.png",
     });
     //3-2
     item_templates["天空兽角"] = new Loot({
         name: "天空兽角", 
         description: "黑暗森林中荒兽的角。被原能浸润过了，是合金的好材料。", 
         value: 405e9,
-        image: "image/item/sky_horn.png",
+        image: "image/roll.png",
     });
     item_templates["B4·能量核心"] = new Loot({
         name: "B4·能量核心", 
         description: "如果放进核心反应堆会导致瞬间爆炸。这样不稳定的燃料需要更可靠的反应堆。", 
         value: 218.7e9,
-        image: "image/item/B4_crystal.png",
+        image: "image/roll.png",
     });
     item_templates["黑白枝丫"] = new Loot({
         name: "黑白枝丫", 
         description: "很遗憾，它们不是超巨大的宝石。不过，它们拥有【念力操控】属性..", 
         value: 341e9,
-        image: "image/item/binary_twig.png",
+        image: "image/roll.png",
     });
     item_templates["黑森叶片"] = new Loot({
         name: "黑森叶片", 
         description: "看似很小其实又大又厚。在恰当的处理后可以做成更好的织料。", 
         value: 486e9,
-        image: "image/item/forest_leaf.png",
+        image: "image/roll.png",
     });
     //3-3
     item_templates["多孔冰晶"] = new Loot({
         name: "多孔冰晶", 
         description: "空气是热的不良导体。虽然冰原气体似乎不是氮氧混合物，但不妨碍它成为良好的隔热材料。", 
         value: 864e9,
-        image: "image/item/ice_crystal.png",
+        image: "image/roll.png",
     });
     item_templates["冰原超流体"] = new Loot({
         name: "冰原超流体", 
         description: "热容类似水，冰点类似氦。<br>在吸收足量冰元素之后会相变为万载冰髓……<br>正如其名，此转化在冰原常温[240K]下大约需要一个纪元。", 
         value: 1.12e12,
-        image: "image/item/iceland_superfiuld.png",
+        image: "image/roll.png",
     });
     item_templates["玄冰果实"] = new Loot({
         name: "玄冰果实", 
         description: "冷却到足够低温后会凝结出一颗冰霜核心。<br>需要在【极寒相变引擎】中散热给【冰原超流体】！", 
         value: 28.8e12,
-        image: "image/item/ice_fruit.png",
+        image: "image/roll.png",
     });
     //3-4
     item_templates["镶晶盾牌"] = new Loot({
         name: "镶晶盾牌", 
         description: "冰宫中的高级盾牌，镶嵌着特殊的晶体。可以用于和万载冰髓锭形成合金！", 
         value: 2.4e12,
-        image: "image/item/crystal_shield.png",
+        image: "image/roll.png",
     });
     item_templates["冰宫鳞片"] = new Loot({
         name: "冰宫鳞片", 
         description: "并不全是龙鳞，只要可以剥皮的敌人身上都会有。没有它的话会被万载冰髓冻死的……", 
         value: 3.0e12,
-        image: "image/item/icepalace_shard.png",
+        image: "image/roll.png",
     });
     item_templates["光环杖芯"] = new Loot({
         name: "光环杖芯", 
         description: "女巫构建的稳定微型能量回路。可以持续向外转化光环能量，也可用于调和不同性质的力量。", 
         value: 3.6e12,
-        image: "image/item/halo_ending.png",
+        image: "image/roll.png",
     });
     //3-5
     item_templates["B7·能量核心"] = new Loot({
         name: "B7·能量核心", 
         description: "颜色更加深邃而内敛了。或许云霄级的核心会有一个惊喜？", 
         value: 8.8e12,
-        image: "image/item/B7_crystal.png",
+        image: "image/roll.png",
     });
     item_templates["虹彩凝胶"] = new Loot({
         name: "虹彩凝胶", 
         description: "和那个只值几十个铜板的兄弟不同，它的彩色来源于多种元素的力量，因此价值不菲。", 
         value: 10.4e12,
-        image: "image/item/rainbow_rubber.png",
+        image: "image/roll.png",
     });
     item_templates["水素晶体"] = new Loot({
         name: "水素晶体", 
         description: "这个水素不是hydro-gen，而是水元素啦……或者你也可以当它是无人深空那个二氢晶体？", 
         value: 12.4e12,
-        image: "image/item/aqua_element.png",
+        image: "image/roll.png",
     });
 
     
@@ -5577,7 +5577,7 @@ item_templates["Twist liek a snek"] = new Book({
         E_value: 10e12,
         effects:[],
         C_value: 3,
-        image: "image/item/ice_fruit_awaken.png",
+        image: "image/roll.png",
     });
     
 
@@ -5587,67 +5587,67 @@ item_templates["Twist liek a snek"] = new Book({
         name: "铜板", 
         description: "燕岗领铸造的通用钱币", 
         value: 1,
-        image: "image/item/1C.png",
+        image: "image/roll.png",
     });
     item_templates["大铜板"] = new Loot({
         name: "大铜板", 
         description: "燕岗领铸造的通用钱币，面值5C", 
         value: 5,
-        image: "image/item/5C.png",
+        image: "image/roll.png",
     });
     item_templates["五彩凝胶"] = new Loot({
         name: "五彩凝胶", 
         description: "完整，色彩鲜艳的凝胶。能卖个好价钱！", 
         value: 75,
-        image: "image/item/rubber_colorful.png",
+        image: "image/roll.png",
     });
     item_templates["银钱"] = new Loot({
         name: "银钱", 
         description: "燕岗领铸造的通用钱币，面值100C", 
         value: 100,
-        image: "image/item/100C.png",
+        image: "image/roll.png",
     });
     item_templates["红色刀币"] = new Loot({
         name: "红色刀币", 
         description: "血洛大陆的通用钱币，面值1X=1000C", 
         value: 1e3,
-        image: "image/item/1X.png",
+        image: "image/roll.png",
     });
     item_templates["黑色刀币"] = new Loot({
         name: "黑色刀币", 
         description: "血洛大陆的通用钱币。1Z=1000X=1'000'000C.", 
         value: 1e6,
-        image: "image/item/1Z.png",
+        image: "image/roll.png",
     });
     item_templates["一捆黑币"] = new Loot({
         name: "一捆黑币", 
         description: "包装起来的血洛大陆通用钱币。总面值10Z。", 
         value: 10e6,
-        image: "image/item/10Z.png",
+        image: "image/roll.png",
     });
     item_templates["绿色刀币"] = new Loot({
         name: "绿色刀币", 
         description: "血洛大陆的通用钱币。1D=1000Z。值得一提的是，它有两把剑，可以铸成两锭海绿。", 
         value: 1e9,
-        image: "image/item/1D.png",
+        image: "image/roll.png",
     });
     item_templates["紫色刀币"] = new Loot({
         name: "紫色刀币", 
         description: "血洛大陆的通用钱币。1B=1000D。宝石制成的它相当珍贵，甚至有微弱增强气运的功效。", 
         value: 1e12,
-        image: "image/item/1B.png",
+        image: "image/roll.png",
     });
     item_templates["宇宙币"] = new Loot({
         name: "宇宙币", 
         description: "全宇宙通用的货币。1U=1000B。界主强者在突破时会凝聚海量宇宙晶，切成小块即为富含能量的宇宙币。", 
         value: 1e15,
-        image: "image/item/1U.png",
+        image: "image/roll.png",
     });
     item_templates["宇宙币堆"] = new Loot({
         name: "宇宙币堆", 
         description: "一大堆宇宙币，共计1000U(或记为1kU)", 
         value: 1000e15,
-        image: "image/item/1000U.png",
+        image: "image/roll.png",
     });
 })();
 
