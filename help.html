@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+
+        <!-- 2. KaTeX 核心 js -->
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+        
+        <!-- 3. 自动渲染扩展（最关键的一行！） -->
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"
+            onload="renderMathInElement(document.body, {
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ]
+            });">
+        </script>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .collapsible {
+                background-color: #eee;
+                color: #444;
+                cursor: pointer;
+                padding: 18px;
+                width: 100%;
+                border: none;
+                text-align: left;
+                outline: none;
+                font-weight: bold;
+                font-size: 16px;
+                border-top: 1px solid gray;
+            }
+            .collapsible:hover, .collapsible.active {
+                background-color: #ccc;
+            }
+            .content {
+                padding: 0 18px;
+                display: none;
+                overflow: hidden;
+                background-color: #f1f1f1;
+            }
+            .katex-display {
+                text-align: left;
+                margin-left: 1.5em;    /* 或 2em、40px，随你喜欢 */
+                margin-right: auto;
+                width:300px;
+            }
+
+            .realm_terra{
+                color:#75E97E;
+                font-weight: bold;
+            }
+
+            .realm_sky{
+                color:#6FAEE4;
+                font-weight: bold;
+            }
+
+            .realm_cloudy{
+                color:#C76EE7;
+                font-weight: bold;
+            }
+
+            .realm_realm{
+                color:#E06BBB;
+                font-weight: bold;
+            }
+
+            .realm_world{
+                color:#F0EA28;
+                font-weight: bold;
+            }
+
+            #header {
+                background-color: #eee;
+                color: #444;
+                font-size: 20px;
+                padding: 18px;
+                width: fit-content;
+                border: none;
+                text-align: left;
+                outline: none;
+                font-weight: bold;
+                margin-bottom: 20px;
+                font-family: sans-serif;
+            }
+
+            .separated { 
+                border-top: 4px solid gray;
+            }
+        </style>
+    </head>
+
+<div id="header">点击菜单来展开内容</div>
+
+<h3> NekoRPGVERSION.26A14W - btly</h3>
+<h3> 下面的全都是过时信息！不要看yaro！</h3>
+<a href="index.html" target="_blank">返回主游戏</a>
+<br><br>
+
+<div id="content_blocks">
+    <button type="button" class="collapsible">现在的游戏结尾是哪里?</button>
+    <div class="content">
+        在目前版本，游戏截止3幕4区[280层]
+        <br>最终剧情为【溪月/感应水元素/时封水牢】。
+    </div>
+
+    <button type="button" class="collapsible">境界/经验</button>
+    <div class="content">
+        获取经验值，提升境界，获得属性。
+        <br>提升境界会同时增加攻击,防御,敏捷,血量。
+        <br>【万物级初等】【潮汐级初等】还会提升攻击速度。
+        <br>大地级之后会解锁【普攻倍率】，1阶提供20%，后续每阶提供10%倍率。
+        <br>天空级之后会解锁【幸运】，1阶提供20%，后续每阶提供10%倍率。
+        <br>突破大地级需要【凝实荒兽森林感悟】，突破天空级则需要【初等进化结晶】。
+        <br>境界来源：猫可露露
+    </div>
+
+
+    <button type="button" class="collapsible">经济</button>
+    <div class="content">
+        <ul>
+            <li> 货币:
+                <ul>
+                    <li>
+                        1000 C = 1 X, 1000 X = 1 Z, 1000 Z = 1 D, 1000 D = 1 B.
+                        <br>对应血洛大陆的四种通用钱币，
+                        <br>和设定上作为地方性辅币的铜钱。
+
+                    </li>
+                    <li>
+                        1000 B = 1 U,1'000'000'000 U = 1 Δ.
+                        <br>对应[宇宙晶]和[血洛晶].
+                        <br>价值基于对大陆内经济体系的估计。
+                        
+                    </li>
+                </ul>
+            </li>
+            <li>
+                价格
+                <ul>
+                    <li>
+                        这里的商人都是奸商，售价远远高于收购价（一般为200%以上）
+                        <br>"讨价还价" 技能可以在一定程度上削弱售价(每级2%,累乘) 
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <del>市场饱和</del>
+                <ul>
+                    <li>
+                        <del>
+                        你出售大量怪物材料时，价格会慢慢降低，最终可达原价的10%。这对所有商人生效。
+                        <br>价格会随着时间恢复，但这是一个极慢的过程。
+                    </del>
+                    </li>
+                    
+                    <li>
+                    根本没人喜欢这种机制！它已经被删掉了！
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <button type="button" class="collapsible">合成</button>
+    <div class="content">
+        <ul>
+            <li> 合成子分类:
+                <ul>
+                    <li> 
+                        物品：大部分是无聊的东西，比如消耗品或进一步合成的原料
+                    </li>
+                    <li>
+                        部件：可以被进一步组装成装备的物品<br>
+                        它们的质量并不直接转移到装备数据，它们的属性会显示为“预期值”<br>
+                        也就是它们制作的对应质量装备的数值。
+                        </li>
+                    <li>
+                        装备: 你真正可以穿上的东西，大部分由部件组成。<br>
+                        品质会被技能等级与部件等级所影响。
+                    </li>
+                </ul>
+            </li>
+            <li>
+                你可以从被动活动与战利品中获取物品，可以被用来合成的物品常常会在介绍中提到它的用途。<br>
+                对于被动活动，需要的时间，成功几率，获取物品的数量，都会被技能等级影响。
+            </li>
+            <li>
+                质量和质量上限
+                <ul>
+                    <li>
+                        装备的质量会在一定范围之内，也会被质量上限修正。
+                        一般而言，装备质量和部件等级负相关，和工作台等级正相关，和技能等级正相关。
+                        备注：现在部件等级和工作台等级都存在0~2.
+                        部件质量的详细公式:(80 + 技能等级 * 2 + 工作台等级 * 10 - 部件等级 * 10 ± 15)%
+                        取整到最近的整4%数(出于堆叠方便的考虑)
+                        装备质量的详细公式:[部件品质对(部件等级+1)的加权平均] ± 15%
+                    </li>
+                    <li>
+                        
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <button type="button" class="collapsible">战斗</button>
+    <div class="content">
+        <ul>
+            <li>
+                AGI / 敏捷:
+                <ul>
+                    <li>一切影响 命中/闪避 的 技能/环境 的总和。 </li>
+                    <li>折算是非线性的。</li>
+                    <li>AGI=5*敌方AGI，命中率为98.0%</li>
+                    <li>AGI=2*敌方AGI，命中率为92.1%</li>
+                    <li>AGI=1*敌方AGI，命中率为78.4%</li>
+                    <li>AGI=0.5*敌方AGI，命中率为50.0%</li>
+                    <li>AGI=0.2*敌方AGI，命中率为15.7%</li>
+                </ul> 
+            </li><br>
+            <li>
+                SPD / 攻击速度:
+                <ul>
+                    <li>
+                        直接转换为角色/怪物的攻击速度。2 * SPD = 同样的时间进行两次攻击。
+                    </li>
+                    <li>
+                        <del>
+                        为了避免精神错乱/潜在的问题，在战斗开始时，攻击速度会被折算以确保没有什么的攻击速度快于1/s.
+                        </del>
+                        <br>
+                        喂喂！攻速软上限是要急死我吗！<br>
+                        攻速软上限已上调至10/s.
+                    </li>
+                </ul>
+            </li><br>
+            <li><del>体力:</del>
+                <ul><del>
+                    <li>当体力降到0，角色的攻击速度和攻击伤害会下降一半。</li>
+                    <li>惩罚会被“忍饥挨饿”技能削弱，该技能在0体力战斗时获得经验。</li>
+                    <li>它也会被提升体力上限/体力恢复削弱，例如使用食物恢复体力。</li>
+                    </del>
+                    <li>体力系统？谁会喜欢时不时来重新挂一下角色！</li>
+                    <li>它已经被彻底删掉了。</li>
+                </ul>
+            </li><br>
+            <li>特殊属性:
+                <ul><del>
+                    <li>在合理的范围内，会对猫可露露进行复刻。</li>
+                    <li>对地图伤害/结算伤害等属性，</li>
+                    <li>优先做到“等效”，如果做不到则增添新效果。</li>
+                    <li>目标是更切实的体会到【特殊属性】的作用！</li>
+                    <li>例如【时封】，经过一系列平衡，期望伤害与原版的比例大致与其他怪物相等..</li>
+                </ul>
+            </li><br>
+            <li>境界:
+                <ul>
+                    <li>NekoRPG的境界划分为微尘/万物/潮汐/大地等级别。<br>
+                    微尘级，最弱势的群体，体质虚弱。<br>
+                    万物级，力壮如牛，胆气如虎。<br>
+                    潮汐级，感应元素，神力千钧……<br>
+                    在这之上——<span class=realm_terra>大地级</span>则为公认的修炼者第一个大门槛。<br>
+                    
+                    越过这个门槛，方可仗剑行走大陆，温饱无忧。<br>
+
+                    <span class=realm_sky>天空级</span>在燕岗领算是进阶探险者，<br>
+                    <span class=realm_cloudy>云霄级</span>则是燕岗领真正的强者阶层。<br>
+                    <span class=realm_realm>领域级</span>强者在整个领都是有数的，<br>
+                    <span class=realm_world>世界级</span>只有去到遥远的【世界城】才会出现。<br>
+                </ul>
+            </li><br>
+            <li>
+                秘法:
+                <ul>
+                    <li>
+                        提供不同的奖励与削弱，在不同情况下有不同的用处。
+                    </li>
+                    <li>
+                        在战斗中修改秘法会重置攻击条。（不许作弊！）
+                    </li>
+                </ul>
+            </li><br>
+            <li>
+                念力兵器:
+                <ul>
+                    <li>
+                        同一类的【念力兵器】之间的用法是共通的。
+                    </li>
+                    <li>
+                        人话就是：用了低级材料做的【念力兵器】练级获取了普攻倍率之后，高级材料的也有倍率。
+                    </li>
+                    <li>
+                        别看它的基础属性不咋地...可是有高贵的独立乘区！！
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <button type="button" class="collapsible">地点类型和昼夜循环</button>
+    <div class="content">
+        <ul>
+            <li>
+                根据原作血洛大陆的描述，建立了血洛计时系统。<br>
+                血洛大陆的计时系统分为纪元-年-日-小时-分。<br>
+                1小时=60分钟，1日=180小时，50日=1年，10081年=1纪元。<br>
+                如此，血洛1分钟大约等于地球58.9秒。<br>
+            </li><br>
+            <li>
+                在普通区域的夜晚 (150~30时), 以及黑暗区域的全天 , Neko 会得到额外的敏捷惩罚。
+                <br>
+                该惩罚会被“夜视”削弱——仅仅是呆在这样的区域就会被动获得“夜视”经验。
+                <br>
+            </li><br>
+            <li>
+                一些战斗区域存在特殊的性质，带来了特定属性上的惩罚。<br>
+                例子：一些区域或许没有充足的移动区域，导致躲避变得困难。<br>
+                它们一般拥有一个配套技能来削弱惩罚，同样在这样的区域中就能被动获取经验。
+            </li>
+            
+        </ul>
+    </div>
+    <button type="button" class="collapsible">经验值和解锁</button>
+    <div class="content">
+        <ul>
+            <li> 经验值:
+                <ul>
+                    <li>更强的怪物提供更多的经验。它不会被区域属性影响，但是会被怪物数量^0.334影响。(同时迎战8只怪物会带来2倍经验)</li>
+                    <li>这里也有很多来源丰富的加成(主要是技能里程碑和阅读过的书本[WIP]),境界提升也能给技能经验值带来增强。</li>
+                </ul> 
+            </li><br>
+            <li> 解锁: 
+                <ul>
+                    <li>{新地点,新行动}，会因为{和某人说话，通过某个区域(可能需要不止一次),行动的完成[Worked!]解锁}</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    
+    <button type="button" class="collapsible">经验折算</button>
+    <div class="content">
+        很久很久以前，曾经有一只猫靠打1-3的怪物升级到了<span class=realm_terra><b>大地级二阶</b></span>..
+        <br>因此，有了【经验折算】机制。
+        <br>击杀的怪物每比自己高一个境界，经验值会增加<span style="color:lime"><b>25%</b></span>.
+        <br>击杀的怪物每比自己低一个境界，经验值会减少<span style="color:red"><b>80%</b></span>.
+    </div>
+
+
+    <button type="button" class="collapsible">装备质量</button>
+    <div class="content">
+        <ul>
+            <li>
+                装备质量
+                <ul>
+                    <li>
+                        所有可装备物品都有“质量”乘数，它直接影响装备的基础属性（武器的攻击，护甲的防御）和价格。
+                        <br>
+                        除此以外，更高的稀有度等级会提供另一个乘数(只与等级相关)，影响装备的[全部]属性。
+                        <br>
+                        <pre>
+                            质量        稀有度          颜色       额外乘数
+                            0-49%       垃圾           灰色        x1
+                            50-99%      常见           白色        x1
+                            100-129%    超常           绿色        x1.1
+                            130-159%    稀有           浅蓝        x1.25
+                            160-199%    史诗           紫色        x1.45
+                            200-239%    传说           粉色        x1.7
+                            240-299%    神秘           橙色        x2.0
+                            300-399%    超越           青色        x2.4
+                            400-499%    天体           蓝色        x3.0
+                            500-699%    远古           酸橙        x3.6
+                            700-999%    无暇           鲜红        x4.5
+                        </pre>
+                    </li>
+                    <li>
+                        <strong>在版本 V2.40 , 商人提供物品的最高质量为 273%.[需要9999个冰宫商人]</strong>
+                        如果使用大量材料练习技能，理论上可能制造出质量300%+(超越)的防具和武器。
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <button type="button" class="collapsible">宝石</button>
+    <div class="content">
+        <ul>
+            <li> 等级:
+                <ul>
+                    <li>宝石颜色不再指示宝石的属性，而是指示等级</li>
+                    <li>在同一样式的宝石中，绿>红>蓝>黄.</li>
+                    <li>截止目前版本[V2.3X]，共有5种样式的宝石。</li>
+                </ul> 
+            </li><br>
+            <li> 效果: 
+                <ul>
+                    <li>使用宝石会随机增幅Neko的攻击/防御/敏捷/血量。</li>
+                    <li>如果使用的宝石获取的属性太多，获取的属性将会被软上限限制！</li>
+                    <li>确切地说，软上限起始点是宝石提供基础属性的30倍...</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    
+    <button type="button" class="collapsible">钓鱼</button>
+    <div class="content">
+        <ul>
+            <li> 说明:
+                <ul>
+                    <li>在结界湖区域加入的全新机制。</li>
+                    <li>读条过程和砍伐，采矿等一致，但读条结束后会进入拉扯界面。</li>
+                    <li>按住屏幕提升“钓鱼条”，松手使它自然下落。</li>
+                    <li>当鱼在“钓鱼条”内部时进度会增长，反之会衰减。</li>
+                    <li>进度满格时鱼即上钩，且会提供经验值。进度归零时鱼会挣脱。</li>
+                </ul> 
+            </li><br>
+            <li> 种类: 
+                <ul>
+                    <li>湖鲤鱼，没有等级要求，最弱的鱼。</li>
+                    <li>青花鱼，等级要求3级以上，中等强度的鱼。</li>
+                    <li>冰柱鱼，等级要求10级以上，最强的鱼！</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <button type="button" class="collapsible">心之境界</button>
+    <div class="content">
+        <ul>
+            <li> 一重 - 宝石吞噬者:
+                <ul>
+                    <li>用于清理深度软上限的无用宝石，同时提供些许加成。</li>
+                    <li>在<span class=realm_terra><b>大地级一阶</b></span>解锁，吞噬宝石获取VP(价值点)。</li>
+                    <li>VP的获取公式是宝石的G_value ^ 2 / 1e4.即高级红宝石为1，高级绿宝石为4,极品黄宝石为25,等等。</li>
+                    <li>VP的加成公式是所有技能经验倍率 * VP ^ 0.07。</li>
+                    <li>此外，宝石吞噬者标记的变色参考了Grass Cutting Incremental - Synthesis...谁看得出来啊！</li>
+                </ul> 
+            </li><br>
+            <li> 二重 - 贪婪之神:
+                <ul>
+                    <li>运气只能通过等级来提高也太难了！是时候加入新办法了！</li>
+                    <li>在<span class=realm_sky><b>天空级一阶</b></span>解锁，吞噬宝钱以上的货币来增加运气。</li>
+                    <li>它的加成公式是运气 * 吞噬宝钱数 ^ 0.1。</li>
+                    <li>目前仍然非常不完善。后续很可能有修改。包括加入吞噬宇宙币的功能。</li>
+                </ul> 
+            </li><br>
+        </ul>
+    </div>
+    
+    <button type="button" class="collapsible">核心反应堆</button>
+    <div class="content">
+        <ul>
+            <li> 基础设定:
+                <ul>
+                    <li>【核心反应堆】是纳可在天外飞船中发现的【科技造物】。</li>
+                    <li>它拥有良好的原能反射能力，可以诱导出【A7·能量核心】与【B1·能量核心】的原能。</li>
+                    <li>这些原能可以被用于制作超高强度的【凝胶剑柄】，或是凝聚成【初级进化结晶】。</li>
+                    <li>不过务必往里面添加一些【高能凝胶】作为冷却剂。否则，反应堆温度过高会导致熔毁。</li>
+                    <li>灵感来源: HBM的核科技 - RBMK反应堆。</li>
+                </ul> 
+            </li><br>
+            <li> B1·能量核心 - 增殖燃料:
+                <ul>
+                    <li>根据公式0.4lg(n+1)x增殖反应堆内的【原能辐射】。</li>
+                    <li>在【317】颗会进入【超临界】状态，导致【原能辐射】持续指数增长。</li>
+                    <li>热值为【8000】。代表1颗B1·能量核心完全燃烧可以释放8000【原能】。</li>
+                </ul> 
+            </li><br>
+            <li> A7·能量核心 - 普通燃料:
+                <ul>
+                    <li>根据公式0.4sqrt(nx)增殖反应堆内的【原能辐射】。</li>
+                    <li>永远不会进入【超临界】状态。不考虑其他【原能辐射】来源时，每秒消耗2%.</li>
+                    <li>热值为【20】。代表1颗A7·能量核心完全燃烧可以释放20【原能】。</li>
+                </ul> 
+            </li><br>
+            <li> 雷电加护 - 放射源:
+                <ul>
+                    <li>根据公式0.001n释放【原能辐射】。</li>
+                    <li>和前两种燃料相比，最大的好处是不需要任何原能辐射即可启动。</li>
+                    <li>热值为【1】。代表1颗雷电加护完全燃烧仅仅释放1【原能】。</li>
+                    <li>可以用它来【完全焚烧】前两种燃料。但它本身永远无法被【完全焚烧】。</li>
+                </ul> 
+            </li><br>
+            <li> 高能凝胶 - 冷却剂:
+                <ul>
+                    <li>根据公式0.01n加强反应堆的热容(【原能辐射】与【温度变化】的比值)</li>
+                    <li>在反应时加入也可以为反应堆降温。<del>不过，部分吸收原能也会被稀释掉。</del></li>
+                    <li>稀释原能的设定已经被移除了。现在可以放心地加入高能凝胶。/li>
+                    <li>热容的提升也有少许代价。根据平方立方定律，自然冷却的速度随凝胶量增加以n^-1/3的速度下滑。</li>
+                    <li>这代表着，在10个【高能凝胶】时反应堆的冷却速度是-10%/s,到了10000个，冷却速度就仅有-1%/s.</li>
+                </ul> 
+            </li><br>
+            <li> 最终成品 - 凝胶剑柄: 
+                <ul>
+                    <li>每次提取消耗反应堆中20%的【高能凝胶】与全部的【吸收原能】。</li>
+                    <li>因此，够用即可，多加也是浪费。</li>
+                    <li>品质公式为100+15ln(x+1).</li>
+                    <li>为了获取史诗，传说，神话，超凡【凝胶剑柄】</li>
+                    <li>分别需要55/789/11304/617226【吸收原能】。</li>
+                    <li>值得一提的是，为了提取【凝胶剑柄】，必须反应堆中至少有10个【高能凝胶】。</li>
+                </ul>
+            </li>
+            <li> 初等进化结晶: 
+                <ul>
+                    <li>在击败【飞船核心-3】后解锁【飞船核心-下方房间】。</li>
+                    <li>击败【飞船核心-下方房间】中的【银色血眼B1[BOSS]】可以获取大量反应堆材料。</li>
+                    <li>同时，还能获取【进化结晶炼制-一学就会】。由此，有了凝聚【初等进化结晶】的能力。</li>
+                    <li>凝聚【初等进化结晶】需要消耗1,000,000【原能辐射】。</li>
+                    <li><del>同时，这会消耗反应堆中<span style="color:red"><b>99%</b></span>的高能凝胶。</del></li>
+                    <li>改版之后，这只会让反应堆<span style="color:red"><b>瞬间停机</b></span>(内部辐射通量归零)。</li>
+                    <li>向着量产而努力吧！</li>
+                </ul>
+            </li><br>
+            <li> 反应堆熔毁:
+                <ul>
+                    <li>当温度超过9999°C,温度条冒蓝光，</li>
+                    <li>反应堆就熔毁了。</li>
+                    <li>虽然它不会因为爆炸再也不能用，</li>
+                    <li>但内部的物品会被清空，且你会被上一个【辐射】debuff。</li>
+                    <li>效果为：生命恢复 - 8%,生命上限 - 50%.</li>
+                    <li>趁皎月神像看你可怜给你打折，去净化一下吧...</li>
+                    <li>除非你压根没加凝胶，这种情况下buff只有100秒。</li>
+                </ul> 
+            </li>
+        </ul>
+    </div>
+    <button type="button" class="collapsible">沼泽辐射扩散</button>
+    <div class="content">
+        <ul>
+            <li> 关于名字:
+                <ul>
+                    <li>虽然听着很奇怪，但全称应该是【赫尔沼泽原能辐射扩散程度】。</li>
+                    <li>设定上，3-1区域【赫尔沼泽】的兽潮便是原能辐射引发。</li>
+                    <li>因此，过量的外溢原能辐射会导致兽潮更加狂暴。</li>
+                    <li>具体来说，就是类似【纳家秘境-∞】的光环特效啦.....</li>
+                </ul> 
+            </li><br>
+            <li> 增加方式:
+                <ul>
+                    <li>使用【初等进化结晶】时，【压级损耗的经验】会以100亿:1%的比例增加【沼泽辐射扩散】。</li>
+                    <li>换言之，天空级一阶~0/结晶，天空级二阶~8%/结晶，天空级三阶~9.6%/结晶。</li>
+                    <li>击杀【一只荒兽】，它的能力回归天地会带来【0.004%】的【沼泽辐射扩散】。</li>
+                    <li>虽然不多，但如果以2.0的攻速/每次攻击3个对象/一刀杀，每个血洛日会增加多达10.8%的【沼泽辐射扩散】。</li>
+                    <li>辐射越多，荒兽越强。荒兽越强，打的越慢。打的越慢，辐射越少。</li>
+                    <li>所以，辐射越多，辐射越少。</li>
+                    <li>不要觉得好笑！这可是完☆美的负反馈设计！</li>
+                </ul> 
+            </li><br>
+            <li> 减少方式:
+                <ul>
+                    <li>唯一的减少方式为时光的流逝。</li>
+                    <li>每个【血洛日】，会自然减少【1%+1%比例】的【沼泽辐射扩散】。</li>
+                    <li>为了避免它出现在非3-1的区域，【沼泽辐射扩散】不足1%时不会有减少提示。</li>
+                    <li>如果不小心吃多了结晶...可以睡一觉解决。</li>
+                    <li>不睡觉情况下半衰期约为2.8小时，睡觉则为28分钟。(均忽略1%的被动扩散，实际上不能忽略，但那样微分方程就不好解了。)</li>
+                </ul> 
+            </li><br>
+        </ul>
+    </div>
+    
+    <button type="button" class="collapsible">极寒相变引擎</button>
+    <div class="content">
+        <ul>
+            <li> 基础设定:
+                <ul>
+                    <li>【极寒相变引擎】是纳可在纯白冰原中自己制造的【器械】。</li>
+                    <li>它的全名应为【极寒气冷二级相变引擎 / Freezing Air Cooled Second Order Phase Transformation Engine】</li>
+                    <li>它的原理相当简单粗暴……压缩气体会释放热量，而让气体膨胀会吸收热量。</li>
+                    <li>因此，只要在外面压缩气体，在一个隔热袋里让气体膨胀，就可以制冷了！</li>
+                    <li>将冰原超流体冷却到极低温度之后，它吸收冰元素的速度会呈超指数增长。</li>
+                    <li>届时，本应消耗万年的【万载冰髓】产生过程可以被压缩到分钟乃至秒。</li>
+                    <li>灵感来源: 逆·阿伦尼乌斯方程&物理化学第一章。</li>
+                </ul> 
+            </li><br>
+            <li> 能量来源:
+                <ul>
+                    <li>显然，任何种类的【能量核心】都不可能吸收热量……</li>
+                    <li>而简易工质轮机的效率极低，可以同时耐数万度高温和数千TPa压强的金属即使在天空级也是稀罕货。</li>
+                    <li>所以！喵可只能亲自推活塞了！</li>
+                    <li>为避免出现精度问题，每秒气体的量/活塞内部体积最多变为e倍或1/e倍。</li>
+                    <li>如果上一条上限跑不满，则【压缩】和【打气】行动的速度将完全取决于喵可的能力。</li>
+                    <li>功率 = ATK ^ 1.5。单位是W，而显示的是GW。</li>
+                    <li>对了，记得切成单体攻击秘法。这里可没有几个活塞给你群攻。</li>
+                </ul> 
+            </li><br>
+            <li> 活塞 - 压缩 / 膨胀:
+                <ul>
+                    <li>[冰原空气] 是一种单原子，且极其接近理想气体的气体。</li>
+                    <li>因此，它的绝热系数约为5/3，意即绝热操作时压强的比例变化率是体积的比例变化率的5/3倍。</li>
+                    <li>选修过化学的应该都知道，这代表剩下的2/3变为了热能！</li>
+                    <li>活塞在环境中时，温度会以0.1(T2-T1)的速度向环境温度靠拢。</li>
+                    <li>极寒冰原的默认环境温度是240K。</li>
+                    <li>这代表热传导。<del>后者则代表热辐射。在1200K以上时后者将占主导地位。</del></li>
+                    <li>基本将多余的热量散掉之后，就可以松开手，让气体【膨胀】。</li>
+                    <li>此时，它的温度会下降，可以为隔热袋制冷。</li>
+                    <li>此外，膨胀的上限是30m³，而压缩的上限是0.3m³。</li>
+                    <li>喵可学艺不精，活塞的底部凹凸不平，压不进去了……</li>
+                    <li>热辐射怎么被删掉了呢？</li>
+                    <li>原本这里是有热辐射设定的。但是悲哀的是，它在12000K以上极端不稳定，会导致模拟失效到处爆NaN。</li>
+                    <li>具体来说，在1帧之内它就把自己的温度辐射到一个很大的负数……</li>
+                    <li>虽然可以用微分方程来确认温度的真实变化率，但这实在太累了。</li>
+                    <li>因此，在纱雪想出更好的办法之前……不需要它也无所谓了啦。</li>
+                </ul> 
+            </li><br>
+            <li> 活塞 - 打气 / 放气:
+                <ul>
+                    <li>想要扩大生产？没问题！</li>
+                    <li>初始时刻活塞中有1亿mol的冰原空气，但是显然可以塞进去更多。</li>
+                    <li>更多的空气代表着压缩更为困难，但气体的热容也会提升。</li>
+                    <li>如果你的隔热袋里装了好多冰原超流体，那加入更多冰原空气这几乎是必经之路！</li>
+                    <li>过程中还会放一点热，不过鉴于冷空气会进入调和，并不会升温多少。</li>
+                    <li>此外，冰原的默认气压为12MPa/120bar/118.4308atm.</li>
+                    <li>因此，放气最多只能进行到12MPa就进行不下去了。</li>
+                    <li>对了，如果有人感兴趣的话，打气计算中做的近似是：</li>
+                    <li>待打气的冰原空气绝热压缩到内部压力，然后再进行一次整体绝热压缩，最后等待热平衡。</li>
+                    <li>结果是：</li>
+                    <li>
+                    $$
+                    \frac{dN}{dt} = \frac{P}{RT_1[\frac{25}{6}(\frac{p_2}{p_1})^{\frac{2}{5}}-\frac{5}{2}]}
+                    $$</li><li>
+                    $$
+                    dT = \frac{dN}{N}[\frac{5T_1}{3}(\frac{p_2}{p_1})^{\frac{2}{5}}-T_2]
+                    $$</li>
+                    <li>dN/dt是空气积累速度(mol/s),N是气体总量(mol),P是功率,R是理想气体常数,T2是内温度,p2是内压强,T1是外温度,p1是外压强，dT是温度变化量。</li>
+                    <li>切记：贪多嚼不烂……</li>
+                    <li>如果打了实在太多的气，压缩会变得极为困难，消耗大量时间。</li>
+                    <li>所幸，有【放气】按钮：每秒将活塞内气体变为原来的1/e倍。小心别放多了！</li>
+                    <li>如果您需要这么做的话，显然您是贪多嚼不烂了。</li>
+                </ul> 
+            </li><br>
+            <li> 冰原超流体 / 热交换:
+                <ul>
+                    <li>是一种导热性极强的材料。弛豫时间不足1帧[40ms]</li>
+                    <li>为尽可能减少从外界吸收的热量，它总是被堆成球形。</li>
+                    <li>当活塞在隔热袋中时，它会和冰原超流体进行热交换。</li>
+                    <li>1m³冰原超流体的热容等于10'000'000 mol 冰原空气。</li>
+                    <li>交换的热量与折合热容:Q1Q2/(Q1+Q2)和温差成正比。</li>
+                    <li>简单来说，如果一侧热容极小，折合热容会趋向它本身。</li>
+                    <li>所以尽可能地让你的冰原超流体和冰原空气热容保持一致吧！</li>
+                    <li>此外，新加入的冰原超流体温度和外界保持一致。</li>
+                    <li>这意味着向深度冷却的超流体中添加更多会大幅稀释温度差。</li>
+                </ul> 
+            </li><br>
+            <li> 多孔冰晶 / 隔热层:
+                <ul>
+                    <li>考虑到热导率反比于厚度，将柯西不等式推广到无限个面积微元，可以发现：</li>
+                    <li>将隔热层平均分布在冰原超流体表面会是最佳的隔热选择。</li>
+                    <li>隔热层厚度使用的是两个球体半径的差值，1pts多孔冰晶等于0.1m³。</li>
+                    <li>因此，增加冰原超流体的量不仅会增大表面积，还会减少隔热层厚度。</li>
+                    <li>瞬时的温度变化率等于0.001*面积*隔热袋与环境温度之差/体积/隔热层厚度。</li>
+                    <li>在初始条件下，这代表着4.6% / s,或制出的热量缺口的半衰期为14.9s。</li>
+                    <li>多堆一点隔热总没有坏处！除非你在隔热袋里面压缩气体……</li>
+                </ul> 
+            </li><br>
+            <li> 冰元素 / 万载冰髓:
+                <ul>
+                    <li>冰原超流体在积累超过1000pts/m³的【冰元素】之后会变为【万载冰髓】。</li>
+                    <li>【冰元素】是亚原子尺度的小只妖精。它们会在分子动的时候让它别动了。</li>
+                    <li>我也不知道什么原因，但【冰元素】积累速度和常规的化学反应速度恰好相反。</li>
+                    <li>比起常规的v=Ae^(-Ep/RT),【冰元素】的单位面积积累速度是σ=a*e^(b/T)。</li>
+                    <li>使用80K下100s内完成转化与240K下万年完成转化拟合，</li>
+                    <li>得到a=3.4764e-14,b=2623.17。</li>
+                    <li>我的意思是，降低一点温度就能让冰元素积累速度大幅提升！</li>
+                    <li>因此，设法降低隔热袋中的温度吧！减少一些冰原超流体也是值得的！</li>
+                    <li>有趣的事实：这对应着冰元素捕获反应的活化能是-21.80kJ/mol.</li>
+                    <li>因为变为【万载冰髓】后就无法流动，【冰元素】积累上限也为1000pts/m³。</li>
+                    <li>为避免浮点精度误差，【冰元素】浓度超过999.999pts/m³即可提取出【万载冰髓】。</li>
+                </ul> 
+            </li><br>
+            <li> 玄冰果实 / 觉醒版:
+                <ul>
+                    <li>【玄冰果实】是冰原中常见的果实，但必须吸收100万的冰元素才能被完全觉醒。</li>
+                    <li>它会以每秒吸收全部冰原超流体中冰元素的速度吸收冰元素……</li>
+                    <li>说人话就是每秒吸到原来的36.8%，上限是100万.</li>
+                    <li>如果【冰原超流体】过少，冷却固然会容易许多，但同时吸收冰元素的上限速度也会大幅降低。</li>
+                    <li>如何操作，就留给喵可们抉择了……</li>
+                    <li>【玄冰果实·觉醒】可以卖，可以吃，还可以做超越第三幕姐姐的【冰原之心】！</li>
+                </ul> 
+            </li>环境特效:
+                <ul>
+                    <li>基础的【冰原环境】外压12MPa,温度240K。</li>
+                    <li>装备【焰海霜天】(领域二重/领域三重)后，可以解锁【焰海】和【霜天】。</li>
+                    <li>【焰海】状态下外压192MPa,温度960K.</li>
+                    <li>【霜天】状态下外压6.75MPa，温度180K.</li>
+                    <li>设定上，压强的变化如此之大是因为大气热力环流在低空就被广域冰元素法阵拦截了。</li>
+                    <li>因此，高温下空气郁结于此，而低温下空气快速疏散！</li>
+                </ul> 
+            </li><br>
+            <li> <del>邪道</del>小技巧:
+                <ul>
+                    <li>你肯定好奇为什么要加一个取走隔热层的按钮。</li>
+                    <li>我需要说明的是，活塞和隔热袋的换热效率上限是和空气的5倍，热容相等的条件也有2.5倍。</li>
+                    <li>第二，气体的量不变的情况下，温度越高内压越高。</li>
+                    <li>第三，充气公式虽然很复杂，但总体而言内压越高充的越慢。</li>
+                    <li>想必你已经知道这些功能可以怎么用了！</li>
+                </ul> 
+            </li><br>
+            <li> 压强锁死:
+                <ul>
+                    <li>虽然对内承受数个TPa也没事，但极寒相变引擎的反向气密性极端糟糕。</li>
+                    <li>只要内压小于外压，内压会在下一个弛豫时间内变的和外压相等。</li>
+                    <li>这是因为打气公式在内压=外压的~27.885%(-)时分母会变为一个绝对值极小的负数。</li>
+                    <li>导致在一个【弛豫时间】之内内部的气体量变为一个绝对值极大的负数。</li>
+                    <li>然后……传热，放气，膨胀，压缩等以连锁反应的形式失灵，制造出成堆的NaN。</li>
+                </ul> 
+            </li><br>
+        </ul>
+    </div>
+
+    <button type="button" class="collapsible separated">致谢与信息</button>
+    <div class="content">
+        <ul>
+            <li><a href="https://miktaew.github.io/yet-another-idle-rpg/" target="_blank">Yet Another Idle RPG</a> - Miktaew , 作为NekoRPG这一mod的原作</li>
+            <li><a href="https://github.com/turuslan/HackTimer" target="_blank">HackTimer</a> - Turuslan, 用于在后台维持网页的运行</li> 
+            <li>图标和样式 - Google</li>
+            <li>剧情/世界观来源: 猫可露露 - 千夜</li>
+    </div>
+    <button type="button" class="collapsible separated">讨论 & 支持游戏</button>
+    <div class="content">
+        [理论上已经是正式版了?]
+        [因为纱雪最近收了好多家长的红包]
+        [这里暂时不会写了……]
+        
+        纱雪の企鹅:21016947
+        超自然生物吐火研究协会: 947190984
+
+    </div>
+</div>
+
+<script>
+    const btns = document.getElementsByClassName("collapsible");
+    //const content = document.getElementById("content");
+
+    for(let i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", () => {
+            btns[i].classList.toggle("active");
+            const content = btns[i].nextElementSibling;
+            if (content.style.display !== "block"){
+                content.style.display = "block";
+            } else {
+                content.style.display = "none";
+            }
+        });
+    }
+
+    const blocks = document.getElementById("content_blocks");
+    blocks.addEventListener("click", (event) => {
+        if(event.target.classList.contains("collapsible")) {
+            const rect = event.target.nextElementSibling.getBoundingClientRect();
+            const windowHeight = document.documentElement.clientHeight;
+
+            if (rect.top < 0 || rect.bottom > windowHeight) {
+                event.target.nextElementSibling.scrollIntoView({ behavior: 'smooth', block: 'end'});
+            }
+        }
+    });
+    
+</script>
+
+</body>
+</html>
