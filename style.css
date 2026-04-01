@@ -1236,6 +1236,12 @@ i {
 	font-weight: bold;
 }
 
+.realm_end{
+	color:#ffe600;;
+	-webkit-text-stroke: 0.3px #fffdbc;;
+	font-weight: bold;
+}
+
 .rarity_trash{
 	color:lightgray;
 }

@@ -193,6 +193,11 @@ const units=['','万','亿','兆','京','垓','秭','穣','沟','涧','正','载
 function format_number(some_number)
 {
     let f_result = "";
+    if(some_number > 1e152)
+    {
+        let exp = Math.log10(some_number);
+        return (some_number/(10**exp)).toFixed(2) + `e+` + exp;
+    }
     if(some_number<0)
     {
         f_result+='-';
