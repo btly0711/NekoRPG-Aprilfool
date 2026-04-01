@@ -219,7 +219,7 @@ class EquipmentRecipe extends Recipe {
 
     get_quality_cap() {
         const skill = skills[this.recipe_skill];
-        return Math.min(Math.round(100*(1+0.05*skill.current_level)),999);
+        return 1.79e308;
     }
 
     get_quality(component_quality, tier = 0) {
