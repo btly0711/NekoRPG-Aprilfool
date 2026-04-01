@@ -1529,9 +1529,7 @@
                 let confirmation = prompt(`这会删除你全部的进度，而你不得不从最开始玩起。如果这就是你想要的，在下面打出"reset"。`);
 
                 if(confirmation === "reset" || confirmation === `"reset"`) {
-                    localStorage.removeItem("save data");
-                    window.location.reload();
-                    return false;
+                    console.log("虽然你打对了，这表明你是个勇士，但为了防止主游戏被一起陪葬，还是不给你重置了吧.");
                 }
                 else {
                     console.log("Hard reset was cancelled.");
